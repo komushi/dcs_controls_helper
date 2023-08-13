@@ -149,6 +149,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d100pnilu1627cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Target Lock",
+		},
 		["d101pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Weapon Change",
 			["removed"] = {
@@ -245,16 +253,16 @@ local diff = {
 			},
 			["name"] = "Airbrake Off",
 		},
-		["d1560pnilunilcdnilvdnilvpnilvunil"] = {
+		["d1635pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN1",
 					["reformers"] = {
 						[1] = "Lever",
 					},
 				},
 			},
-			["name"] = "Rearming and Refueling Window",
+			["name"] = "Target Unlock",
 		},
 		["d175pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -272,21 +280,13 @@ local diff = {
 			},
 			["name"] = "Jettison Fuel Tanks",
 		},
-		["d179pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
-			["name"] = "Communication menu",
-		},
 		["d280pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Cut Of Burst select",
@@ -306,6 +306,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Ripple Interval Increase",
@@ -313,7 +316,7 @@ local diff = {
 		["d286pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN25",
 				},
 			},
 			["name"] = "RWR/SPO Mode Select",
@@ -321,7 +324,7 @@ local diff = {
 		["d300pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN13",
 					["reformers"] = {
 						[1] = "Lever",
 					},
@@ -333,6 +336,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Ripple Interval Decrease",
@@ -389,6 +395,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Launch Permission Override",
@@ -433,6 +442,17 @@ local diff = {
 				},
 			},
 			["name"] = "Laser Ranger On/Off",
+		},
+		["d393pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+					["reformers"] = {
+						[1] = "Lever",
+					},
+				},
+			},
+			["name"] = "Night Vision (FLIR or LLTV) On/Off",
 		},
 		["d408pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -488,7 +508,7 @@ local diff = {
 		["d71pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN24",
 				},
 			},
 			["name"] = "Canopy Open/Close",
@@ -503,14 +523,6 @@ local diff = {
 				},
 			},
 			["name"] = "Flaps Up/Down",
-		},
-		["d76pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Dragging Chute",
 		},
 		["d81pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -553,24 +565,13 @@ local diff = {
 		["d87pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN25",
+					["key"] = "JOY_BTN9",
 					["reformers"] = {
 						[1] = "Lever",
 					},
 				},
 			},
 			["name"] = "Electro-Optical System On/Off",
-		},
-		["d980pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
-			["name"] = "Switch to main menu",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

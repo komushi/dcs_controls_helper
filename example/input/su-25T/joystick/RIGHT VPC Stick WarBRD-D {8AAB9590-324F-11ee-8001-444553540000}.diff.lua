@@ -60,14 +60,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d100pnilu1627cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Target Lock",
-		},
 		["d101pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -82,6 +74,11 @@ local diff = {
 			},
 		},
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 			["name"] = "Cannon",
 			["removed"] = {
 				[1] = {
@@ -107,17 +104,6 @@ local diff = {
 				},
 			},
 			["name"] = "F6 Released weapon view",
-		},
-		["d1635pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
-			["name"] = "Target Unlock",
 		},
 		["d176pnilu536cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -182,12 +168,20 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Wheel Brake On",
+		},
+		["d76pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
 					["reformers"] = {
 						[1] = "Lever",
 					},
 				},
 			},
-			["name"] = "Wheel Brake On",
+			["name"] = "Dragging Chute",
 		},
 		["d77pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -211,10 +205,24 @@ local diff = {
 			},
 			["name"] = "F1 Cockpit view",
 		},
+		["d83pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+					["reformers"] = {
+						[1] = "Lever",
+					},
+				},
+			},
+			["name"] = "Eject (3 times)",
+		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
+				},
+				[2] = {
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "Weapon Fire",

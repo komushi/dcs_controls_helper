@@ -17,27 +17,6 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.25,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 0.5,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
 			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
@@ -119,6 +98,9 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0.3,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 0.15,
@@ -137,6 +119,9 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0.3,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 0.15,
@@ -410,28 +395,6 @@ local diff = {
 			},
 			["name"] = "Autopilot - Attitude Hold",
 		},
-		["d387pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN28",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
-			["name"] = "Autopilot - Altitude And Roll Hold",
-		},
-		["d388pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
-			["name"] = "Autopilot - Transition To Level Flight Control",
-		},
 		["d392pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -447,9 +410,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
-					["reformers"] = {
-						[1] = "Lever",
-					},
 				},
 			},
 			["name"] = "Night Vision (FLIR or LLTV) On/Off",
@@ -485,6 +445,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Landing Gear Up",
@@ -493,6 +456,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Landing Gear Down",
@@ -512,17 +478,6 @@ local diff = {
 				},
 			},
 			["name"] = "Canopy Open/Close",
-		},
-		["d72pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-					["reformers"] = {
-						[1] = "Lever",
-					},
-				},
-			},
-			["name"] = "Flaps Up/Down",
 		},
 		["d81pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -566,9 +521,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
-					["reformers"] = {
-						[1] = "Lever",
-					},
 				},
 			},
 			["name"] = "Electro-Optical System On/Off",

@@ -73,10 +73,29 @@ local diff = {
 				},
 			},
 		},
+		["d103pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Radar | Display Zoom In",
+		},
+		["d104pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Radar | Display Zoom Out",
+		},
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN5",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "Cannon",
@@ -89,7 +108,10 @@ local diff = {
 		["d136pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN15",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "ECM",
@@ -143,7 +165,7 @@ local diff = {
 		["d357pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "Countermeasures Flares Dispense",
@@ -151,7 +173,7 @@ local diff = {
 		["d358pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "Countermeasures Chaff Dispense",
@@ -159,7 +181,10 @@ local diff = {
 		["d391pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN17",
+					["reformers"] = {
+						[1] = "Lever",
+					},
 				},
 			},
 			["name"] = "IR Jamming",
@@ -186,10 +211,7 @@ local diff = {
 		["d77pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
-					["reformers"] = {
-						[1] = "Lever",
-					},
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Countermeasures Continuously Dispense",
@@ -208,7 +230,7 @@ local diff = {
 		["d83pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN19",
 					["reformers"] = {
 						[1] = "Lever",
 					},
@@ -306,22 +328,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-		},
-		["dnilp39u289cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Zoom in slow",
-		},
-		["dnilp40u290cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Zoom out slow",
 		},
 		["dnilp412u414cdnilvdnilvpnilvunil"] = {
 			["added"] = {
